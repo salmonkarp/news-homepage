@@ -67,6 +67,8 @@ a {
     padding-top:1em;
     padding-bottom: 1em;
     background-color: hsl(5, 85%, 63%);
+    letter-spacing: 0.3em;
+    font-weight: 700;
 }
 
 .new-stories {
