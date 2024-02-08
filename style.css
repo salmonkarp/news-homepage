@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Inter';
+    src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+body {
+    background-color: hsl(36, 100%, 99%);
+    font-family: 'Inter';
+    padding-left:1em;
+    padding-right:1em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+#wrapper {
+    max-width:100vw;
+    min-height:100vh;
+}
+
+.navbar-toggler, svg, .text-reset{
+    border:none;
+    background-color: transparent;
+    outline:none;
+}
+
+.navbar-toggler:active{
+    border:none;
+}
+
+.nav-link {
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.main-image {
+    width:100%;
+    max-height:300px;
+}
+
+.main-title {
+    font-weight: 800;
+    font-size:3.5em;
+}
+
+.main-subtitle {
+    color:hsl(236, 13%, 42%);
+}
+
+.read-more:hover {
+    background-color: hsl(240, 100%, 5%);
+}
+
+.new-stories {
+    min-width:30%;
+}
+
+.btn-danger {
+    border-radius:0;
+    padding-left:2em;
+    padding-right:2em;
+    padding-top:1em;
+    padding-bottom: 1em;
+    background-color: hsl(5, 85%, 63%);
+}
+
+.new-stories {
+    background-color: hsl(240, 100%, 5%);
+}
+
+.new-title {
+    color:hsl(35, 77%, 62%);
+    font-weight: 700;
+}
+
+.new-subtitle {
+    color:hsl(36, 100%, 99%);
+    font-weight: 700;
+}
+
+.new-subtitle:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.new-desc {
+    color:hsl(36, 100%, 99%);
+    font-weight: 200;
+}
+
+hr {
+    color:white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+.number {
+    font-weight: 800;
+    color: hsl(233, 8%, 79%);
+}
+
+.highlight {
+    margin-bottom:1em;
+    padding-right:0;
+}
+
+.highlight > .col-8 {
+    padding-right:0;
+}
+
+.highlight-title {
+    font-weight:800;
+    font-size: 1em;
+}
+
+.highlight-title:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.highlight-subtitle {
+    font-size: 0.9em;
+    color:hsl(236, 13%, 42%);
+}
+
+.highlight-image {
+    padding:0;
+    display: flex;
+    align-items: center;
+}
+
+.him {
+    height:100%;
+}
+
+.attribution { 
+    position:relative;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
